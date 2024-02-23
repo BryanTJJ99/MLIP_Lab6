@@ -19,7 +19,7 @@ pipeline {
                 source mlip/bin/activate
 
                 # TODO Complete the command to run pytest
-                pytest
+                python -m pytest
 
                 # Deactivate the virtual environment
                 deactivate
