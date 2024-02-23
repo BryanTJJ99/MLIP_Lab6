@@ -24,8 +24,6 @@ pipeline {
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
-                pip install pytest
-                pip install -r requirements.txt
                 pytest
 
                 // echo 'pytest not runned'
