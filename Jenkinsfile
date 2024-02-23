@@ -19,7 +19,7 @@ pipeline {
                 # sudo /PATH/TO/CONDA init
 
                 # Create and activate the virtual environment
-                python3 -m venv mlip
+                sudo python3 -m venv mlip
                 source mlip/bin/activate
 
                 # TODO Complete the command to run pytest
