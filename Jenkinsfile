@@ -19,6 +19,7 @@ pipeline {
                 source mlip/bin/activate
 
                 # TODO Complete the command to run pytest
+                pip install -r requirements.txt
                 python3 -m pytest
 
                 # Deactivate the virtual environment
